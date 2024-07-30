@@ -97,9 +97,10 @@
   },
   "schema": {
     "columns": [
-      {"name":"ADVATE","type":"string"},
+      {"name":"BRAND_NM","type":"string"},
       {"name":"PFZ_MKT_NM","type":"string"},
-      {"name":"BRAND_NM with PFZ_BRAND_IND\u003d1","type":"string"}
+      {"name":"SUB_BRAND_NM","type":"string"},
+      {"name":"INDICATION","type":"string","comment":"","maxLength":1000}
     ],
     "userModified": true
   },
