@@ -99,7 +99,7 @@
     "columns": [
       {"name":"ADVATE","type":"string"},
       {"name":"UH","type":"string"},
-      {"name":"col_2","type":"string"}
+      {"name":"BRAND_NM with PFZ_BRAND_IND\u003d1","type":"string"}
     ],
     "userModified": true
   },
