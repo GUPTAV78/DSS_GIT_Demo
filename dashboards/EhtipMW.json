@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "id": "d4MUmkA",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false,
+      "enableCrossFilters": true,
+      "showFilterPanel": true,
+      "filtersParams": {
+        "panelPosition": "TOP",
+        "engineType": "LINO"
+      }
+    }
+  ],
+  "owner": "mewil34262@swides.com",
+  "listed": true,
+  "name": "GIT_DEMO\u0027s default dashboard",
+  "showGrid": false,
+  "showNavigationArrows": false,
+  "reloadWhenEventReceived": false,
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "mewil34262@swides.com"
+    },
+    "lastModifiedOn": 1722346678891,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
