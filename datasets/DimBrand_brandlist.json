@@ -45,7 +45,7 @@
     "skipRowsBeforeHeader": 0,
     "parseHeaderRow": true,
     "skipRowsAfterHeader": 0,
-    "probableNumberOfRecords": 3,
+    "probableNumberOfRecords": 4,
     "normalizeBooleans": false,
     "normalizeDoubles": true,
     "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
@@ -100,7 +100,7 @@
       {"name":"BRAND_NM","type":"string"},
       {"name":"PFZ_MKT_NM","type":"string"},
       {"name":"SUB_BRAND_NM","type":"string"},
-      {"name":"INDICATION","type":"string","comment":"","maxLength":1000}
+      {"name":"INDICATION","type":"string"}
     ],
     "userModified": true
   },
