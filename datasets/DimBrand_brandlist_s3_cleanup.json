@@ -64,7 +64,6 @@
     "columns": [
       {"name":"BRAND_NM","type":"string"},
       {"name":"PFZ_MKT_NM","type":"string"},
-      {"name":"SUB_BRAND_NM","type":"string"},
       {"name":"INDICATION","type":"string"}
     ],
     "userModified": true
