@@ -6,9 +6,13 @@
     "overwriteOutputSchema": true,
     "forcePipelineableForTests": false,
     "readParams": {
-      "mode": "AUTO",
+      "mode": "MANUAL",
       "autoModeRepartitionInto": 10,
-      "map": {}
+      "map": {
+        "DimBrand_brandlist_s3": {
+          "repartition": 10
+        }
+      }
     },
     "sparkConfig": {
       "inheritConf": "default",
