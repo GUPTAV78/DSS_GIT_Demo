@@ -1,0 +1,64 @@
+{
+  "type": "spark_sql_query",
+  "neverRecomputeExistingPartitions": false,
+  "params": {
+    "useGlobalMetastore": false,
+    "overwriteOutputSchema": true,
+    "forcePipelineableForTests": false,
+    "readParams": {
+      "mode": "AUTO",
+      "autoModeRepartitionInto": 10,
+      "map": {}
+    },
+    "sparkConfig": {
+      "inheritConf": "default",
+      "conf": []
+    },
+    "executionEngine": "SPARK_SUBMIT",
+    "pipelineAllowStart": true,
+    "pipelineAllowMerge": true,
+    "skipPrerunValidate": false
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "hashPropagationBehavior": "INHERIT",
+  "variables": {},
+  "dkuProperties": [],
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "DimBrand_brandlist_s3",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "valid_brands_S3",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "labels": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "mewil34262@swides.com"
+    },
+    "lastModifiedOn": 1722347456616,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
