@@ -27,7 +27,7 @@
   "formatParams": {
     "style": "excel",
     "charset": "utf-8",
-    "separator": " ",
+    "separator": ",",
     "quoteChar": "\"",
     "escapeChar": "\\",
     "maxRowChars": 100000000,
@@ -42,10 +42,10 @@
       "\u0007",
       "\b"
     ],
-    "skipRowsBeforeHeader": 14,
+    "skipRowsBeforeHeader": 0,
     "parseHeaderRow": true,
     "skipRowsAfterHeader": 0,
-    "probableNumberOfRecords": 2,
+    "probableNumberOfRecords": 3,
     "normalizeBooleans": false,
     "normalizeDoubles": true,
     "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
