@@ -41,7 +41,7 @@
       "type": "ColumnsSelector",
       "params": {
         "columns": [
-          "SUB_BRAND_NM"
+          "INDICATION"
         ],
         "keep": false,
         "appliesTo": "SINGLE_COLUMN"
